@@ -1,0 +1,24 @@
+// !!! HEADER FONTS !!! //
+
+.header{
+
+    &__name-font{
+        font-family: 'Roboto', sans-serif;
+        font-size: 4rem;
+        color: #fff;
+        text-align: left;
+    }
+
+    &__nav-link-font{
+        font-family: 'Fahkwang', sans-serif;
+        font-size: 1.5rem;
+        color: #fff;
+        // line-height: 1.5;
+
+        // &:hover{
+        //     text-decoration: underline;
+        // }
+
+    }
+
+}

@@ -1,0 +1,172 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+html {
+  font-size: 10px; }
+
+@media (min-width: 2400px) {
+  html {
+    font-size: 20px; } }
+
+@media (max-width: 1600px) {
+  html {
+    font-size: 9px; } }
+
+@media (max-width: 1240px) {
+  html {
+    font-size: 8px; } }
+
+@media (max-width: 1020px) {
+  html {
+    font-size: 7px; } }
+
+.body {
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Fahkwang', sans-serif;
+  font-size: 1.6rem; }
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+.body__wrap {
+  margin: 0 auto;
+  max-width: 192rem;
+  min-width: 16rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #fff; }
+
+a {
+  text-decoration: none; }
+
+ul, li {
+  list-style: none; }
+
+button {
+  cursor: pointer; }
+
+.header__name-font {
+  font-family: 'Roboto', sans-serif;
+  font-size: 4rem;
+  color: #fff;
+  text-align: left; }
+
+.header__nav-link-font {
+  font-family: 'Fahkwang', sans-serif;
+  font-size: 1.5rem;
+  color: #fff; }
+
+.header__container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #0070af;
+  padding: 2.5rem 4rem; }
+
+.header__name {
+  padding-bottom: 3rem; }
+
+.header__nav {
+  padding: 0rem 0.3rem; }
+
+.header__nav-ul {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+.header__nav-link {
+  padding-bottom: 0.3rem; }
+  .header__nav-link:hover {
+    border-bottom: 0.1rem solid #fff; }
+
+.biografie__content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-flex-wrap: nowrap;
+      -ms-flex-wrap: nowrap;
+          flex-wrap: nowrap;
+  padding: 0 4rem; }
+
+.biografie__img {
+  width: 35%;
+  height: 20rem; }
+
+.biografie__text {
+  width: 65%;
+  height: 20rem;
+  margin: 0 auto; }
