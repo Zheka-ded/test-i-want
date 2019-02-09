@@ -13,12 +13,24 @@
         font-family: 'Fahkwang', sans-serif;
         font-size: 1.5rem;
         color: #fff;
-        // line-height: 1.5;
-
-        // &:hover{
-        //     text-decoration: underline;
-        // }
-
     }
 
+}
+
+// !!! PAGES FONTS !!! //
+
+.global-title-text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 3rem;
+    font-weight: 400;
+    text-align: left;
+    padding-bottom: 3rem;
+}
+
+.global-subtitle-text{
+    font-family: 'Fahkwang', sans-serif;
+    font-size: 1.5rem;
+    text-align: left;
+    line-height: 1.5;
+    letter-spacing: 0.15rem;
 }

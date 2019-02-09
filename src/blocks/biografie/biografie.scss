@@ -3,23 +3,11 @@
     &__content{
         display: flex;
         flex-direction: row;
-        flex-wrap: nowrap;
-        padding: 0 4rem;
+        padding: 5rem 4rem;
     }
 
-    &__img{
-        // background: url('../img/minions-png-5a3aa9e4880921.5011442815137940205572.jpg');
-        // background-position: center;
-        // background-size: contain;
-        // background-repeat: no-repeat;
-        width: 35%;
-        height: 20rem;
-    }
-
-    &__text{
-        width: 65%;
-        height: 20rem;
-        margin: 0 auto;
+    &__mine-photo{
+        padding-right: 10rem;
     }
 
 }

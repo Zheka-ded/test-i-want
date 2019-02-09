@@ -48,7 +48,7 @@ table {
 html {
   font-size: 10px; }
 
-@media (min-width: 2400px) {
+@media (min-width: 2600px) {
   html {
     font-size: 20px; } }
 
@@ -97,6 +97,15 @@ ul, li {
 button {
   cursor: pointer; }
 
+.global-img-styles {
+  width: 30rem;
+  height: 30rem;
+  background-color: #808080; }
+
+.global-text-styles {
+  width: 95rem;
+  height: 30rem; }
+
 .header__name-font {
   font-family: 'Roboto', sans-serif;
   font-size: 4rem;
@@ -107,6 +116,20 @@ button {
   font-family: 'Fahkwang', sans-serif;
   font-size: 1.5rem;
   color: #fff; }
+
+.global-title-text {
+  font-family: 'Roboto', sans-serif;
+  font-size: 3rem;
+  font-weight: 400;
+  text-align: left;
+  padding-bottom: 3rem; }
+
+.global-subtitle-text {
+  font-family: 'Fahkwang', sans-serif;
+  font-size: 1.5rem;
+  text-align: left;
+  line-height: 1.5;
+  letter-spacing: 0.15rem; }
 
 .header__container {
   display: -webkit-box;
@@ -157,16 +180,119 @@ button {
   -webkit-flex-direction: row;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-flex-wrap: nowrap;
-      -ms-flex-wrap: nowrap;
-          flex-wrap: nowrap;
-  padding: 0 4rem; }
+  padding: 5rem 4rem; }
 
-.biografie__img {
-  width: 35%;
-  height: 20rem; }
+.biografie__mine-photo {
+  padding-right: 10rem; }
 
-.biografie__text {
-  width: 65%;
-  height: 20rem;
-  margin: 0 auto; }
+.slideshow-container {
+  width: 130rem;
+  position: relative;
+  margin: auto; }
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -3rem;
+  padding: 1.5rem;
+  color: #fff;
+  font-weight: bold;
+  font-size: 3rem;
+  -webkit-transition: 0.6s ease;
+  -o-transition: 0.6s ease;
+  transition: 0.6s ease;
+  -webkit-border-radius: 0 0.5rem 0.5rem 0;
+          border-radius: 0 0.5rem 0.5rem 0; }
+
+.next {
+  right: 0;
+  -webkit-border-radius: 0.5rem 0 0 0.5rem;
+          border-radius: 0.5rem 0 0 0.5rem; }
+
+.prev:hover, .next:hover {
+  background-color: rgba(0, 0, 0, 0.8); }
+
+.text {
+  color: #f2f2f2;
+  font-size: 2.5rem;
+  padding: 1.5rem 2.5rem;
+  position: absolute;
+  top: 0; }
+
+.dot-wrap {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.dot {
+  cursor: pointer;
+  width: 2rem;
+  height: 2rem;
+  margin: 0 0.5rem;
+  background-color: #bbb;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-transition: background-color 0.6s ease;
+  -o-transition: background-color 0.6s ease;
+  transition: background-color 0.6s ease; }
+
+.active, .dot:hover {
+  background-color: #717171; }
+
+.fade {
+  -webkit-animation-name: fade;
+          animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+          animation-duration: 1.5s; }
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4; }
+  to {
+    opacity: 1; } }
+
+@keyframes fade {
+  from {
+    opacity: 0.4; }
+  to {
+    opacity: 1; } }
+
+.preise__content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+  -webkit-flex-direction: row-reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 5rem 4rem; }
+
+.preise__mine-photo {
+  padding-left: 10rem; }

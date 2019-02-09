@@ -2,7 +2,7 @@ html{
     font-size: 10px;
 }
 
-@media (min-width: 2400px) {
+@media (min-width: 2600px) {
     html{
         font-size: 20px;
     }
@@ -56,4 +56,15 @@ ul, li{
 
 button{
     cursor: pointer;
+}
+
+.global-img-styles{
+    width: 30rem;
+    height: 30rem;
+    background-color: #808080;
+}
+
+.global-text-styles{
+    width: 95rem;
+    height: 30rem;
 }

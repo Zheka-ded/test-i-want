@@ -1,0 +1,14 @@
+.preise{
+
+    &__content{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        padding: 5rem 4rem;
+    }
+    
+    &__mine-photo{
+        padding-left: 10rem;
+    }
+
+}
