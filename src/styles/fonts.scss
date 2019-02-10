@@ -6,12 +6,29 @@
         font-family: 'Roboto', sans-serif;
         font-size: 4rem;
         color: #fff;
-        text-align: left;
     }
 
     &__nav-link-font{
         font-family: 'Fahkwang', sans-serif;
         font-size: 1.5rem;
+        color: #fff;
+    }
+
+}
+
+// !!! FOOTER FONTS !!! //
+
+.footer{
+
+    &__text-font{
+        font-family: 'Roboto', sans-serif;
+        font-size: 3rem;
+        color: #fff;
+    }
+
+    &__nav-link-font{
+        font-family: 'Fahkwang', sans-serif;
+        font-size: 2rem;
         color: #fff;
     }
 
@@ -33,4 +50,12 @@
     text-align: left;
     line-height: 1.5;
     letter-spacing: 0.15rem;
+}
+
+@media (max-width: 751px) {
+    .global-title-text{
+        text-align: center;
+        padding-top: 3rem;
+    }
+
 }

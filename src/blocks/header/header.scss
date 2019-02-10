@@ -32,3 +32,32 @@
     }
 
 }
+
+@media (max-width: 751px) {
+
+    .header{
+
+        &__name{
+            padding-top: 3rem;
+            text-align: center;
+        }
+
+        &__container{
+            padding: 1.5rem 2rem;
+        }
+
+    }
+
+}
+
+@media (max-width: 415px) {
+
+    .header{
+
+        &__nav{
+            display: none;
+        }
+
+    }
+
+}

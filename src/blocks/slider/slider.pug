@@ -1,25 +1,17 @@
-section.slider
-    //- .slider__content
-    .slideshow-container
+section.slider.wow.bounceInDown
+    .slider__content
         .mySlides.fade
-            .numbertext|1/4
-            img(src="./img/520312566_1280x720.jpg", style="width: 100%" alt="")
-            .text|text
+            img.slider__img(src="./img/520312566_1280x720.jpg", alt="minion-photo")
         .mySlides.fade
-            .numbertext|2/4
-            img(src="./img/maxresdefault.jpg", style="width: 100%" alt="")
-            .text|text
+            img.slider__img(src="./img/maxresdefault.jpg", alt="minion-photo")
         .mySlides.fade
-            .numbertext|3/4
-            img(src="./img/maxresdefault (1).jpg", style="width: 100%" alt="")
-            .text|text
+            img.slider__img(src="./img/maxresdefault (1).jpg", alt="minion-photo")
         .mySlides.fade
-            .numbertext|4/4
-            img(src="./img/maxresdefault (2).jpg", style="width: 100%" alt="")
-            .text|text
-        a.prev(onclick="plusSlides(-1)")|&#10094
-        a.next(onclick="plusSlides(1)")|&#10095
-        br
+            img.slider__img(src="./img/maxresdefault (2).jpg", alt="minion-photo")
+        a.prev(onclick="plusSlides(-1)")
+            i(class="fas fa-chevron-circle-left")
+        a.next(onclick="plusSlides(1)")
+            i(class="fas fa-chevron-circle-right")
         .dot-wrap(style="text-align: center")
             span.dot(onclick="plusSlides(1)")
             span.dot(onclick="plusSlides(2)")

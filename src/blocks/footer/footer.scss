@@ -1,0 +1,54 @@
+.footer{
+
+    &__content{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #0070af;
+        padding: 2.5rem 4rem;
+    }
+
+    &__nav-ul{
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__nav-link{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+        padding: 1rem 0;
+
+        &-phone{
+            padding-left: 0.5rem;
+        }
+    }
+
+}
+
+.fa-home, .fa-envelope, .fa-mobile-alt{
+    padding-right: 2rem;
+}
+
+
+@media (max-width: 415px) {
+
+    .footer{
+
+        &__content{
+            flex-direction: column;
+        }
+
+        &__nav-ul{
+            padding-top: 2rem;
+        }
+
+        &__nav-li{
+            display: flex;
+            justify-content: center;
+        }
+
+    }
+
+}

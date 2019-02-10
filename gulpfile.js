@@ -25,12 +25,11 @@ var paths = {
     watch: ['./src/blocks/**/*.scss', './src/styles/**/*.scss', './src/styles/*.scss']
   },
   js: {
-    src: ['./node_modules/particles.js/demo/js/app.js', './src/plugins/*.js', './src/blocks/**/*.js'],
     src: ['./src/plugins/*.js', './src/blocks/**/*.js'],
     dest: './build/js',
     watch: './src/blocks/**/*.js',
     watchPlugins: './src/plugins/*.js',
-    watchPlugins: './src/scripts/plugins/*.js'
+    // watchPlugins: './src/scripts/plugins/*.js'
   },
   images: {
     src: './src/blocks/**/img/*',

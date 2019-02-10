@@ -6,6 +6,7 @@ html(lang="en")
         meta(http-equiv="X-UA-Compatible", content="ie=edge")
         title|test-i-want
         link(rel="stylesheet", href="./css/main.css")
+        link(href='https://use.fontawesome.com/releases/v5.0.6/css/all.css' rel='stylesheet')
         link(href="https://fonts.googleapis.com/css?family=Fahkwang:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,thai,vietnamese" rel="stylesheet")
     body.body
         .body__wrap
@@ -13,4 +14,6 @@ html(lang="en")
             include ../blocks/biografie/biografie.pug
             include ../blocks/slider/slider.pug
             include ../blocks/preise/preise.pug
-        script(src="./js/main/js")
+            include ../blocks/footer/footer.pug
+        script(src="./js/main.js")
+        script|new WOW().init();

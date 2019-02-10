@@ -6,11 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
     <title>test-i-want</title>
     <link rel="stylesheet" href="./css/main.css"/>
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet"/>
     <link href="https://fonts.googleapis.com/css?family=Fahkwang:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&amp;amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,thai,vietnamese" rel="stylesheet"/>
   </head>
   <body class="body">
     <div class="body__wrap">
-      <header class="header">
+      <header class="header wow bounceInDown">
         <div class="header__container">
           <h1 class="header__name header__name-font">Lorem ipsum dolor.</h1>
           <nav class="header__nav">
@@ -26,7 +27,7 @@
           </nav>
         </div>
       </header>
-      <section class="biografie">
+      <section class="biografie wow bounceInDown">
         <div class="biografie__content">
           <div class="biografie__mine-photo global-photo-styles"><img class="biografie__img global-img-styles" src="../img/569f745fec60d1525ede96e0.png" alt="minion-photo"/></div>
           <div class="biografie__text global-text-styles">
@@ -35,28 +36,16 @@
           </div>
         </div>
       </section>
-      <section class="slider">
-        <div class="slideshow-container">
-          <div class="mySlides fade">
-            <div class="numbertext">1/4</div><img src="./img/520312566_1280x720.jpg" style="width: 100%" alt=""/>
-            <div class="text">text</div>
-          </div>
-          <div class="mySlides fade">
-            <div class="numbertext">2/4</div><img src="./img/maxresdefault.jpg" style="width: 100%" alt=""/>
-            <div class="text">text</div>
-          </div>
-          <div class="mySlides fade">
-            <div class="numbertext">3/4</div><img src="./img/maxresdefault (1).jpg" style="width: 100%" alt=""/>
-            <div class="text">text</div>
-          </div>
-          <div class="mySlides fade">
-            <div class="numbertext">4/4</div><img src="./img/maxresdefault (2).jpg" style="width: 100%" alt=""/>
-            <div class="text">text</div>
-          </div><a class="prev" onclick="plusSlides(-1)">&#10094</a><a class="next" onclick="plusSlides(1)">&#10095</a><br/>
+      <section class="slider wow bounceInDown">
+        <div class="slider__content">
+          <div class="mySlides fade"><img class="slider__img" src="./img/520312566_1280x720.jpg" alt="minion-photo"/></div>
+          <div class="mySlides fade"><img class="slider__img" src="./img/maxresdefault.jpg" alt="minion-photo"/></div>
+          <div class="mySlides fade"><img class="slider__img" src="./img/maxresdefault (1).jpg" alt="minion-photo"/></div>
+          <div class="mySlides fade"><img class="slider__img" src="./img/maxresdefault (2).jpg" alt="minion-photo"/></div><a class="prev" onclick="plusSlides(-1)"><i class="fas fa-chevron-circle-left"></i></a><a class="next" onclick="plusSlides(1)"><i class="fas fa-chevron-circle-right"></i></a>
           <div class="dot-wrap" style="text-align: center"><span class="dot" onclick="plusSlides(1)"></span><span class="dot" onclick="plusSlides(2)"></span><span class="dot" onclick="plusSlides(3)"></span><span class="dot" onclick="plusSlides(4)"></span></div>
         </div>
       </section>
-      <section class="preise">
+      <section class="preise wow bounceInDown">
         <div class="preise__content">
           <div class="preise__mine-photo global-photo-styles"><img class="preise__img global-img-styles" src="../img/minions_PNG67.png" alt="minion-photo"/></div>
           <div class="preise__text global-text-styles">
@@ -65,7 +54,20 @@
           </div>
         </div>
       </section>
+      <footer class="footer wow bounceInDown">
+        <div class="footer__content">
+          <p class="footer__text footer__text-font">Lorem ipsum</p>
+          <nav class="footer__nav">
+            <ul class="footer__nav-ul">
+              <li class="footer__nav-li"><a class="footer__nav-link footer__nav-link-phone footer__nav-link-font" href="tel:0981/4877231">0981/48 77 231<i class="fas fa-mobile-alt"></i></a></li>
+              <li class="footer__nav-li"><a class="footer__nav-link footer__nav-link-font" href="mailto:Loremipsum@minion.cc">Loremipsum@minion.cc<i class="far fa-envelope"></i></a></li>
+              <li class="footer__nav-li"><a class="footer__nav-link footer__nav-link-font" href="#">Lorem ipsum. 8 112233 Dolor<i class="fas fa-home"></i></a></li>
+            </ul>
+          </nav>
+        </div>
+      </footer>
     </div>
-    <script src="./js/main/js"></script>
+    <script src="./js/main.js"></script>
+    <script>new WOW().init();</script>
   </body>
 </html>

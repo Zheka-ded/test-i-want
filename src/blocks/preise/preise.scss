@@ -12,3 +12,35 @@
     }
 
 }
+
+
+@media (max-width: 751px) {
+
+    .preise{
+
+        &__content{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 5rem 4rem;
+        }
+    
+        &__mine-photo{
+            padding: 0rem;
+        }
+    
+    }
+
+}
+
+@media (max-width: 415px) {
+
+    .preise{
+
+        &__text{
+            height: 50rem;
+        }
+
+    }
+
+}
