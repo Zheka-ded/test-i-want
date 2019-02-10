@@ -27,10 +27,18 @@
 
         &:hover{
             border-bottom: 0.1rem solid #fff;
+            color: #999999;
+	        animation: 0.5s color infinite;
         }
 
     }
 
+}
+
+@keyframes color{
+	50% {
+	  color: #8fc8ae;
+	}
 }
 
 @media (max-width: 751px) {
